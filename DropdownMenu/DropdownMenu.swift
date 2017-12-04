@@ -327,6 +327,7 @@ extension DropdownMenu: UITableViewDataSource {
         
         cell.textLabel?.text = item.title
         cell.textLabel?.font = textFont
+        cell.textLabel?.textAlignment = .center
         cell.tintColor = highlightColor
         cell.backgroundColor = cellBackgroundColor
         
